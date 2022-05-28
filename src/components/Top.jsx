@@ -23,11 +23,11 @@ export const Top = () => {
   ]
   return (
     <>
-      <div className="bg-azul-claro h-auto">
+      <div className="bg-[#eff7ff] h-auto">
         <div className="container py-10 mx-auto w-3/4 lg:w-3/5" >
           <h1 className="text-lg text-azul-oscuro font-semibold">Últimas licitaciones</h1>
           <div class="grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-x-2">
-            <Card />
+            <Card urge= {true} />
             <Card />
             <Card />
             <Card />
