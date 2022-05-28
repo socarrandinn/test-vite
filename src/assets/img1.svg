@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Group_9830" data-name="Group 9830" transform="translate(0 -1852)">
+    <g id="Circle_Button_" data-name="Circle Button " transform="translate(0 1852)">
+      <rect id="Area_SIZE:LARGE_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [SIZE:LARGE][STATE:DEFAULT][STYLE:STYLE2]" width="56" height="56" rx="28" fill="#07a0e4"/>
+      <g id="Group_9875" data-name="Group 9875" transform="translate(14 14)">
+        <path id="Path_7045" data-name="Path 7045" d="M0,0H28V28H0Z" fill="none"/>
+        <path id="Path_7046" data-name="Path 7046" d="M4.887,17.028,8.97,12.945l3.394,3.395,3.788-3.788L14,10.4h6v6l-2.152-2.152-5.485,5.485L8.97,16.34,6,19.309a9.6,9.6,0,1,0-1.112-2.28ZM3.042,18.9l-.012-.012,0,0a11.736,11.736,0,1,1,.007.017Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
