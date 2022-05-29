@@ -5,7 +5,7 @@ export const CajaInfo = () => {
   const [change, setChange] = useState(false)
   return (
     <div className="flex flex-col gap-y-3">
-      <blockquote class="text-4xl font-semibold text-left mr-auto text-slate-900">
+      <blockquote className="text-4xl font-semibold text-left mr-auto text-slate-900">
         <span className="text-azul-medio leading-normal">Ventajas <span className="text-gray-700">de usar la plataforma</span></span>
       </blockquote>
 
@@ -13,7 +13,7 @@ export const CajaInfo = () => {
         <span className={`${change === true ? 'bg-white py-2  px-1 rounded-full shadow-lg hover:bg-gray-100 cursor-pointer' : 'text-white'} px-2 overflow-ellipsis overflow-hidden whitespace-nowrap`}
           onClick={() => setChange(!change)}
         >Personas naturales</span>
-        <span className={`${change === false ? 'bg-white py-2 px-1 rounded-full shadow-lg hover:bg-gray-100 cursor-pointer' : 'text-white'} px-2 overflow-ellipsis overflow-hidden whitespace-nowrap`}
+        <span className={`${change === false ? 'bg-white py-2 px-1 rounded-full shadow-lg hover:bg-gray-100 cursor-pointer' : 'text-white'} px-2 overflow-ellipsis overflow-hidden whitespace-nowrap  `}
           onClick={() => setChange(!change)}
         >Público Empresarial</span>
       </div>

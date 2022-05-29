@@ -2,7 +2,7 @@ import image3 from '../assets/pictures/image3.png'
 
 export const CardInfo = () => {
   return (
-    <div className={'h-auto w-full bg-local bg-no-repeat rounded-md shadow-lg bg-center from-azul-medio shadow-slate-200 px-3 py-4 mt-2 flex flex-col gap-y-1 justify-between'} style={{
+    <div className={'h-auto w-full bg-cover bg-center bg-no-repeat rounded-md shadow-lg from-azul-medio shadow-slate-200 px-3 py-4 mt-2 flex flex-col gap-y-1 justify-between'} style={{
       backgroundImage: `linear-gradient(135deg, rgba(29, 157, 219, 0.85) 30%, rgba(16, 24, 52, 0.50) 90%),
       url(${image3})
       `

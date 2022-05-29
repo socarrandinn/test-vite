@@ -10,21 +10,21 @@ export const List = () => {
   ]
 
   return (
-    <div className="flex flex-col mx-auto gap-y-2">
+    <ul className="flex flex-col mx-auto gap-y-2">
       {
-        list?.map(item => (
-          <div class="p-6 mx-auto hover:bg-white hover:cursor-pointer rounded-xl hover:shadow-xl flex items-center gap-x-2">
-          <div class="shrink-0">
-            <img class="h-12 w-12" src={item.icon} />
+        list?.map((item, index) => (
+          <li key={index} className="p-6 mx-auto hover:bg-white hover:cursor-pointer rounded-xl hover:shadow-xl flex items-center gap-x-2">
+          <div className="shrink-0">
+            <img className="h-12 w-12" src={item.icon} />
           </div>
           <div>
-            <div class="text-xl font-bold text-gray-700">{item.title}</div>
-            <p class="text-slate-500 text-xs">{item.description}</p>
+            <div className="text-xl font-bold text-gray-700">{item.title}</div>
+            <p className="text-slate-500 text-xs">{item.description}</p>
           </div>
-        </div>
+        </li>
         )
         )
     }
-    </div>
+    </ul>
   )
 }
