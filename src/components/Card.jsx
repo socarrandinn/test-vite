@@ -14,7 +14,7 @@ export const Card = (props) => {
       <label className="text-[0.5em] xl:text-xs  flex flex-row gap-1 pt-2 items-center mr-auto">
       <span className="overflow-ellipsis overflow-hidden whitespace-nowrap" >CUP {compactPresupuesto}</span> •
       <span className="overflow-ellipsis overflow-hidden">{categoria}</span> •
-      <span className="overflow-ellipsis overflow-hidden">{restFecha(fechaCreacion, '2022-6-20')} días</span>
+      <span className="overflow-ellipsis overflow-hidden">{restFecha(fechaCreacion, fechaPublicacion)} días</span>
       </label>
 
     </div>

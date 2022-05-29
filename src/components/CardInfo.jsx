@@ -7,7 +7,7 @@ export const CardInfo = () => {
       url(${image3})
       `
     }}>
-      <h1 className="text-lg w-2/3 text-white font-blod">Aquí puede encontrar su próximo cliente</h1>
+      <h1 className="text-xs lg:text-lg w-full md:w-2/3 text-white font-blod">Aquí puede encontrar su próximo cliente</h1>
       <button className="bg-azul-medio text-sm font-blod text-[#cfecf9] hover:bg-[#18244e] px-5 py-2 rounded-md mr-auto shadow-lg">Ver más licitaciones</button>
     </div>
   )

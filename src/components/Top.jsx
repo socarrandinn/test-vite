@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { CajaInfo } from './CajaInfo'
 import { Card } from './Card'
 import { CardInfo } from './CardInfo'
-import { List } from './List'
+import { List } from './List/List'
 
 import { Box } from './Box'
 
