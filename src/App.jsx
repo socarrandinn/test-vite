@@ -2,14 +2,12 @@ import { Top } from './components/Top'
 import { SWRConfig } from 'swr'
 import { intanceAxios } from './services/axios'
 
-// import { Suspense } from 'react'
-
 function App () {
   return (
     <SWRConfig
       value={{
         refreshInterval: 2000,
-        fetcher: (url) => intanceAxios.get(url).then(res => res.data)
+        fetcher: (url) => intanceAxios.get(url).then(res => res.data).catch(error => console.log(error))
       }}>
       <Top />
     </SWRConfig>
